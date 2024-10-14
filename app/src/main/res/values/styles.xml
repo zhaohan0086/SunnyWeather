@@ -1,0 +1,8 @@
+<resources>
+    //另外，我们刚才在PlaceFragment的布局里面已经定义了一个搜索框布局，因此就不再需要原
+    生的ActionBar了，修改res/values/styles.xml中的代码
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        ...
+    </style>
+</resources>
